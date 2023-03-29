@@ -1,0 +1,56 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.btn-primary {
+    font-family: 'Lato', sans-serif;
+}
+
+/* Color Palette */
+:root {
+    --primary-color: #2C3E50;
+    --secondary-color: #3498DB;
+    --accent-color: #F39C12;
+    --light-color: #ECF0F1;
+    --dark-color: #34495E;
+}
+
+.navbar-light .navbar-brand,
+.navbar-light .navbar-nav .nav-link {
+    color: var(--primary-color);
+}
+
+.btn-primary {
+    background-color: var(--secondary-color);
+    border-color: var(--secondary-color);
+}
+
+.btn-primary:hover {
+    background-color: var(--accent-color);
+    border-color: var(--accent-color);
+}
+
+.jumbotron {
+    background-color: var(--light-color);
+}
+
+.card {
+    border-color: var(--light-color);
+}
+
+.card-title {
+    color: var(--primary-color);
+}
+
+footer {
+    background-color: var(--dark-color);
+    color: var(--light-color);
+}
+
+footer a {
+    color: var(--light-color);
+}
